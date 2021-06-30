@@ -1,0 +1,14 @@
+# install virtual enviroment module so that we can create virtual environment for any project.
+pip install pipenv
+
+# it will create virtual environment at this folder/project.
+virtualenv .
+
+# it will start and activate the virtual enviroment.
+.\Scripts\activate
+
+# install scrapy module
+pip install scrapy
+
+# create a scrapy project.
+scrapy startproject demo_project
